@@ -21,7 +21,7 @@ spec:
         - containerPort: 5000
           name: vote
           
-apiVersion: v1
+apiVersion: apps/v1
 kind: Service
 metadata:
   labels:
